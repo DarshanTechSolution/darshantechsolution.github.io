@@ -179,30 +179,38 @@ nav a:hover {
 }
 
 /* Read more logic */
-#line-toggle,
+
+/* hide checkbox */
 #read-toggle {
     display: none;
 }
 
-.more-content {
-    display: none;
-    margin-top: 8px;
-}
-
-#read-toggle:checked ~ .more-content {
-    display: block;
-}
-
-/* Hide Read more after expand */
-#read-toggle:checked + .read-more-top {
+/* initial state */
+.inline-more {
     display: none;
 }
 
-/* Read less spacing */
-.read-less-bottom {
-    display: inline-block;
-    margin-top: 10px;
+.read-less-inline {
+    margin-left: 6px;
     cursor: pointer;
+}
+
+.read-more-inline {
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+/* toggle logic */
+#read-toggle:checked ~ .inline-more {
+    display: inline;
+}
+
+#read-toggle:checked ~ .read-more-inline {
+    display: none;
+}
+
+#read-toggle:checked ~ .dots {
+    display: none;
 }
 /* read more end*/
 
@@ -355,6 +363,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
