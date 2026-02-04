@@ -179,6 +179,7 @@ nav a:hover {
 }
 
 /* Read more logic */
+
 #read-toggle {
     display: none;
 }
@@ -192,19 +193,16 @@ nav a:hover {
     display: block;
 }
 
-/* Text switch */
-.read-more::after {
-    content: "Read more";
+/* Hide Read more when expanded */
+#read-toggle:checked + .read-more-top {
+    display: none;
 }
 
-#read-toggle:checked + .read-more::after {
-    content: "Read less";
-}
-
-.read-more {
-    cursor: pointer;
+/* Read less styling */
+.read-less-bottom {
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 8px;
+    cursor: pointer;
 }
 
 /* read more end*/
@@ -358,6 +356,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
