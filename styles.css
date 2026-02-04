@@ -180,27 +180,21 @@ nav a:hover {
 
 /* Read more logic */
 
-/* hide checkbox */
 #read-toggle {
     display: none;
 }
 
-/* initial state */
 .inline-more {
     display: none;
 }
 
+.read-more-inline,
 .read-less-inline {
-    margin-left: 6px;
     cursor: pointer;
-}
-
-.read-more-inline {
     margin-left: 4px;
-    cursor: pointer;
 }
 
-/* toggle logic */
+/* toggle */
 #read-toggle:checked ~ .inline-more {
     display: inline;
 }
@@ -212,6 +206,8 @@ nav a:hover {
 #read-toggle:checked ~ .dots {
     display: none;
 }
+
+
 /* read more end*/
 
 .custom-link:hover {
@@ -363,6 +359,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
