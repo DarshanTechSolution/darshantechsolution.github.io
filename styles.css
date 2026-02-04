@@ -178,6 +178,37 @@ nav a:hover {
     text-decoration: none; /* Remove underline, if desired */
 }
 
+/* Read more logic */
+#read-toggle {
+    display: none;
+}
+
+.more-content {
+    display: none;
+    margin-top: 6px;
+}
+
+#read-toggle:checked ~ .more-content {
+    display: block;
+}
+
+/* Text switch */
+.read-more::after {
+    content: "Read more";
+}
+
+#read-toggle:checked + .read-more::after {
+    content: "Read less";
+}
+
+.read-more {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* read more end*/
+
 .custom-link:hover {
     color: #0093AF; /* Set the color on hover */
     /* You can customize other styles on hover as well */
@@ -327,6 +358,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
