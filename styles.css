@@ -248,7 +248,7 @@ nav a:hover {
 .box-link-btn {
   display: inline-block;
   padding: 7px 14px;
-  background: #2196f3;
+  background: #333;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -413,6 +413,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
