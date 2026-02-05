@@ -174,8 +174,8 @@ nav a:hover {
 
 /* Main Link */
 .custom-link {
-    color: orange; /* Set the initial color */
-    text-decoration: none; /* Remove underline, if desired */
+    color: orange; 
+    text-decoration: none; 
 }
 
 /* Read more logic */
@@ -206,8 +206,6 @@ nav a:hover {
 #read-toggle:checked ~ .dots {
     display: none;
 }
-
-
 /* read more end*/
 
 /* Boxes*/
@@ -256,35 +254,32 @@ nav a:hover {
 }
 
 .box-link-btn:hover {
-  background: #1976d2;
+  background: #FFA500;
 }
-
-
-
 
 /* Bos end */
 
 .custom-link:hover {
-    color: #0093AF; /* Set the color on hover */
-    /* You can customize other styles on hover as well */
+    color: #0093AF; 
+    
 }
 
 /* Text link */
 
 .custom-link2 {
-    color: white; /* Set the initial color */
-    text-decoration: none; /* Remove underline, if desired */
+    color: white; 
+    text-decoration: none; 
 }
 
 .custom-link2:hover {
-    color: #2D68C4; /* Set the color on hover */
-    /* You can customize other styles on hover as well */
+    color: #2D68C4; 
+
 }
 
 /*Line Space */
 
 .line-spaced {
-    line-height: 2; /* Adjust the value to set the desired line spacing */
+    line-height: 2; 
 }
 p {
 	font-size:20px;
@@ -317,24 +312,6 @@ footer {
 			padding: 10px;
 					
         }
-
-/*youube video */
-.youtube-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;      /* change width if needed */
-    margin: 20px auto;    /* center align */
-    padding-top: 56.25%;  /* 16:9 aspect ratio */
-}
-
-.youtube-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
 	
 /*back Button */
 
@@ -413,20 +390,3 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
