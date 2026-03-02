@@ -406,4 +406,25 @@ footer {
     background-color: #333;
 }
 
+/* Contact Form Container */
+.contact-container
+	{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) 
+	{
+    .contact-container {
+        margin: 40px 15px;
+        padding: 30px 20px;
+    }
+}
+
 
